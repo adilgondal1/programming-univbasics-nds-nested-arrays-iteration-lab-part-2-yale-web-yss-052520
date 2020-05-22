@@ -15,6 +15,7 @@ def find_min_in_nested_arrays(src)
   result.push(min)
   r += 1
   end
+  result
 end
 
 puts (find_min_in_nested_arrays([[1,2,3],[5,3,7]]))
